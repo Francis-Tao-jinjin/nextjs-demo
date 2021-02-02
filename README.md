@@ -2,6 +2,12 @@
 
 This is a demo show how to use Highchart in Next.js project.
 
+run:
+```javascript
+npm install
+npm run dev
+```
+
 ![chart screenshot](1.png)
 
 ## Thing to notice
