@@ -34,6 +34,11 @@ export default function Home({allPostsData}) {
         </p>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem} key={-1}>
+            <Link href={`/hirecharts`}>
+            <a>{'hirecharts'}</a>
+            </Link>
+          </li>
         {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
